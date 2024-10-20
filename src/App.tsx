@@ -9,7 +9,7 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
-  const container = useRef();
+  const container = useRef<any>();
   useGSAP(
     () => {
       gsap.fromTo(
