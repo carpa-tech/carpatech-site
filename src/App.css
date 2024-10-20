@@ -1,0 +1,165 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-shadow: 1px 1px 3px black;
+  color: #E9E9E9;
+  background-color: #111111;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu{
+  position: fixed;
+  width: 98%;
+  background-color: #111111;
+}
+
+main{
+  padding-top: 75px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+} 
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+ul li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #E9E9E9;
+  transition: 1000ms;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.main-menu {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.main-menu ul {
+  display: flex;
+}
+.main-menu ul li{
+  margin-left: 10px;
+}
+
+.cols {
+  display: flex;
+  flex-direction: row;
+}
+.cols .col {
+  flex: 1;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+#section-1 .sun {
+  width: 55vw;
+  height: 100vh;
+  min-height: 980px;
+  left: 0;
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  /* position: absolute; */
+  position: fixed;
+  z-index: -1;
+  background-image: url(http://localhost:5173/ellipse.png);
+}
+
+#section-1 h4 {
+  margin-bottom: 50px;
+}
+#section-1 .connect {
+  display: flex;
+  align-items: center;
+}
+#section-1 .connect .future-text  {
+  margin-right: 20px;
+}
+#section-1 .connect .now-text  {
+  margin-left: 20px;
+}
+#section-1 .connect .circle {
+  
+  background-color: #E9E9E9;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+#section-1 .connect .line {
+  background-color: #E9E9E9;
+  width: 20vw;
+  height: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+#section-2 {
+  padding: 50px;
+  background-color: #1111111c;
+  backdrop-filter: blur(50px);
+}
+#section-2 .col{
+  margin: 100px;
+  width: 300px;
+}
+#section-2 p span{
+  font-size: 30px;
+  font-weight: 400;
+}
+#section-2 .banner{
+  width: 100%;
+  max-width: 900px;
+}
+
+#section-3 {
+  padding: 50px;
+  background-color: #1111111c;
+  backdrop-filter: blur(50px);
+  margin-top: 20px;
+}
+#section-3 .col{
+  margin: 100px;
+  width: 300px;
+}
+#section-3 h1{
+  font-size: 40px;
+  line-height: 1;
+  margin-top: -20px;
+}
+/* #section-3 h4{
+} */
+
+
