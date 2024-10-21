@@ -113,8 +113,6 @@ function App() {
             </div>
           </div>
           <img className="banner" src="banner.png" />
-          {/* <div>
-          </div> */}
         </section>
         <section id="section-3">
           <div className="cols">
@@ -131,8 +129,6 @@ function App() {
               <p>Telefone +55 85 99637 2253</p>
             </div>
           </div>
-          {/* <div>
-          </div> */}
         </section>
       </main>
     </>
