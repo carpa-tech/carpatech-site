@@ -91,7 +91,6 @@ section {
   left: 0;
   background-position-x: 100%;
   background-repeat: no-repeat;
-  /* position: absolute; */
   position: fixed;
   z-index: -1;
   background-image: url(http://localhost:5173/ellipse.png);
@@ -159,7 +158,3 @@ section {
   line-height: 1;
   margin-top: -20px;
 }
-/* #section-3 h4{
-} */
-
-
