@@ -69,7 +69,7 @@ function App() {
   return (
     <>
       <nav className="main-menu">
-        <img className="logo" src="http://localhost:5173/logo.svg" />
+        <img className="logo" src="logo.svg" />
         <ul>
           <li>
             <a href="#section-2">O QUE FAZEMOS?</a>
@@ -84,17 +84,11 @@ function App() {
           <div className="sun"></div>
           <h3>Conectamos o futuro ao agora em cada linha código</h3>
           <div className="connect">
-            <img
-              className="future-text"
-              src="http://localhost:5173/future-text.svg"
-            />
+            <img className="future-text" src="future-text.svg" />
             <div className="circle circle1"></div>
             <div className="line"></div>
             <div className="circle circle2"></div>
-            <img
-              className="now-text"
-              src="http://localhost:5173/now-text.svg"
-            />
+            <img className="now-text" src="now-text.svg" />
           </div>
         </section>
         <section id="section-2">
@@ -118,9 +112,7 @@ function App() {
               </p>
             </div>
           </div>
-          <img className="banner" src="http://localhost:5173/banner.png" />
-          {/* <div>
-          </div> */}
+          <img className="banner" src="banner.png" />
         </section>
         <section id="section-3">
           <div className="cols">
@@ -132,16 +124,11 @@ function App() {
             </div>
             <div className="col">
               <a href="#">
-                <img
-                  className="banner"
-                  src="http://localhost:5173/whatsapp.png"
-                />
+                <img className="banner" src="whatsapp.png" />
               </a>
               <p>Telefone +55 85 99637 2253</p>
             </div>
           </div>
-          {/* <div>
-          </div> */}
         </section>
       </main>
     </>
